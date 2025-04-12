@@ -9,7 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FoodDeliveryApp">
         <activity
-            android:name=".OwnerDashboardActivity"
+            android:name=".LoginActivity1"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,10 +18,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".RegisterActivity1"
+            android:exported="false" />
 
-        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
     </application>
 
 </manifest>
